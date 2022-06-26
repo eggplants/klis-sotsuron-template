@@ -1,0 +1,16 @@
+.~lock*
+.DS_Store
+.cache/
+
+*.dvi
+*.fls
+*.aux
+*.log
+*.toc
+*.out
+*.fdb_latexmk
+*.synctex*
+node_modules/
+
+.ipynb_checkpoints
+docs/

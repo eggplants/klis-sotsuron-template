@@ -1,0 +1,34 @@
+# pip install pre-commit
+# pre-commit install
+# pre-commit run --all-files
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: end-of-file-fixer
+        files: \.(py|sh|rst|yml|yaml)$
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+        files: \.(py|sh|rst|yml|yaml)$
+
+- repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.31.1
+    hooks:
+      - id: markdownlint-fix
+        args:
+          [
+            "--disable=MD013",
+            "--disable=MD033",
+          ]
+
+  - repo: https://github.com/cmhughes/latexindent.pl.git
+    rev: V3.18
+    hooks:
+      - id: latexindent-docker
