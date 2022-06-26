@@ -47,3 +47,9 @@
 
 - [pre-commit](https://pre-commit.com)
   - `pre-commit`とDocker環境を構築する必要がある
+
+## TIPS
+
+- こまめに以下をやらないとOverleafでコンフリクトしてプロジェクトを作り直すことになる。
+  - Overleafで変更を行ったら`Menu→Sync→GitHub→Push Overleaf changes to GitHub`
+  - Overleaf以外で変更を行ったら、`Menu→Sync→GitHub→Pull changes from GitHub`
