@@ -21,7 +21,7 @@
       - Firefoxは内蔵されたPDF.jsビューワーで閲覧できる
   - OverleafのWordCountで字数チェックが可能
     - 本文のみ、謝辞や参考文献は除く字数が得られる
-  - このテンプレートのプレビュー: <https://www.overleaf.com/read/whwnddkvpjkt>
+  - このテンプレートのプレビュー: <https://www.overleaf.com/read/xhbdmcypnmmj>
 
 ### 要旨
 
