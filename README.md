@@ -39,3 +39,11 @@
     - `build.sh`でPDFを作成
     - `ext.sh`でスピーカーノートのテキストのみ抽出
     - `serve.sh`で発表画面を起動
+
+
+### フォーマット
+
+必要なら`pre-commit run --all-files`によってMarkdownとLaTeX文書をフォーマットできる。
+
+- [pre-commit](https://pre-commit.com)
+  - `pre-commit`とDocker環境を構築する必要がある
